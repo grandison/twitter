@@ -2,7 +2,7 @@
 require File.expand_path('../lib/twitter/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'faraday', '0.6.1'
+  gem.add_dependency 'faraday', '0.4.1'
   gem.add_dependency 'multi_json', '~> 1.3'
   gem.add_dependency 'simple_oauth', '~> 0.1.6'
   gem.add_development_dependency 'json'
